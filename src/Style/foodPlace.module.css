@@ -1,0 +1,79 @@
+.foodPlaceContainer {
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .searchFilterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #b52d29;
+    width: 100%;
+  }
+  
+  .searchInput {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .filterSelect {
+    padding: 10px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .foodList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .foodItem {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .foodImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .foodDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .foodName {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .viewButton {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

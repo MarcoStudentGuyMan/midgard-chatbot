@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px; /* Add more padding for spacing */
+    background-color: #ff3d00;
+    height: 100px; /* Increase navbar height */
+    width: 100vw; /* Make navbar span the full viewport width */
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    height: 70px; /* Increase logo size */
+    width: auto;
+}
+
+.navLinks {
+    display: flex;
+    gap: 30px; /* Increase gap between links */
+    list-style: none;
+    margin: 0;
+}
+
+.navLinks li {
+    font-size: 1.4em; /* Increase font size for links */
+    font-weight: bold;
+}
+
+.navLinks li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navLinks li a:hover {
+    color: #ffe6e6; /* Slight color change on hover */
+}
