@@ -2,29 +2,35 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px; /* Add more padding for spacing */
+    padding: 10px 40px;
     background-color: #ff3d00;
-    height: 100px; /* Increase navbar height */
-    width: 100vw; /* Make navbar span the full viewport width */
+    height: 100px;
+    width: 100vw;
     position: relative;
     left: 0;
     top: 0;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Adds a drop shadow */
+}
+
+.logoContainer {
+    flex-grow: 1; /* Allows the logo to move to the far left */
 }
 
 .logo {
-    height: 70px; /* Increase logo size */
+    height: 180px; /* 150% of 120px */
     width: auto;
 }
 
 .navLinks {
     display: flex;
-    gap: 30px; /* Increase gap between links */
+    gap: 30px;
     list-style: none;
     margin: 0;
+    padding-right: 40px; /* Align links away from the logo */
 }
 
 .navLinks li {
-    font-size: 1.4em; /* Increase font size for links */
+    font-size: 1.4em;
     font-weight: bold;
 }
 
@@ -35,5 +41,5 @@
 }
 
 .navLinks li a:hover {
-    color: #ffe6e6; /* Slight color change on hover */
+    color: #ffe6e6;
 }

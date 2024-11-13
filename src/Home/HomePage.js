@@ -23,6 +23,8 @@ function HomePage() {
           <img src={FoodPark} alt="Food Park" className="food-image" />
         </div>
       </main>
+
+      {/* Footer */}
       <Footer />
     </div>
   );

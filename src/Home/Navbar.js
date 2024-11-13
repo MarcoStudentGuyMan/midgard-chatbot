@@ -6,10 +6,12 @@ import midgardLogo from '../assets/midgard-logo.png';
 function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <img src={midgardLogo} alt="Midgard Logo" className={styles.logo} />
+      <Link to="/" className={styles.logoContainer}>
+        <img src={midgardLogo} alt="Midgard Logo" className={styles.logo} />
+      </Link>
       <ul className={styles.navLinks}>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/food-places">Food Places</Link></li> {/* Link to Food Places */}
+        <li><Link to="/food-places">Food Places</Link></li>
         <li><Link to="/location">Location</Link></li>
       </ul>
     </nav>
